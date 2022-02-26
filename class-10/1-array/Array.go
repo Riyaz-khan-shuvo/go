@@ -26,6 +26,8 @@ func main() {
 
 	// array declaration in short way or array string literal
 
+	// in computer science literal is a notation...
+
 	// var i int
 	// for i = 0; i < 3; i++ {
 	// 	fmt.Scanf("%s", &Students[i])
