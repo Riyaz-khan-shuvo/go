@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var w1 Weight
+
 // struct declaration
 
 type Book struct {
@@ -22,6 +24,10 @@ type Book struct {
 
 func main() {
 	fmt.Println("Hello I am working")
+	w1 = 13.5
+	fmt.Println("This is From another File")
+	fmt.Println(w1)
+	fmt.Println(name)
 
 	// set the value of struct and get the value
 
