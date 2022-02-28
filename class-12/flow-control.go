@@ -36,12 +36,14 @@ func main() {
 		switch marks {
 		case 0:
 			fmt.Println("F")
+
 		case 1:
 			fmt.Println("F")
 		case 2:
 			fmt.Println("F")
 		case 3:
 			fmt.Println("F")
+			fallthrough
 		case 4:
 			fmt.Println("D")
 		case 5:
@@ -58,4 +60,8 @@ func main() {
 	}
 
 	// fmt.Println("Your marks is : ", marks)
+
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+	}
 }
