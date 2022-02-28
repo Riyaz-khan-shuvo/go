@@ -61,7 +61,33 @@ func main() {
 
 	// fmt.Println("Your marks is : ", marks)
 
+	// for loop
+
 	for i := 0; i < 10; i++ {
 		fmt.Println(i)
 	}
+
+	// for range loop
+
+	name := []string{"Riyaz", "Shuvo", "Ismail"}
+
+	for i, singleName := range name {
+
+		fmt.Println(i, singleName)
+	}
+
+	// for boolean loop
+
+	// for true {
+	// 	fmt.Println("Hello ")
+	// }
+
+	// this is the infinite loop of for or forever loop or unlimated loop
+
+	var i int
+	for i < 9 {
+		fmt.Println(i, "hello ")
+		i++
+	}
+
 }
