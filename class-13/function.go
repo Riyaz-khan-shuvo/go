@@ -56,11 +56,11 @@ func rectangle(l, base int) (area, parameter int) {
 // 	return
 // }
 
-func update(a *int, t *string) {
-	*a = *a + 5      // defrencing pointer address
-	*t = *t + " Doe" // defrencing pointer address
-	return
-}
+// func update(a *int, t *string) {
+// 	*a = *a + 5      // defrencing pointer address
+// 	*t = *t + " Doe" // defrencing pointer address
+// 	return
+// }
 
 //anonymous function
 
@@ -93,11 +93,11 @@ func main() {
 	fmt.Println("Area is		: ", a, "\nParameter is	: ", p)
 
 	//
-	number := 25
-	name := "Riyaz"
+	// number := 25
+	// name := "Riyaz"
 
-	update(&number, &name)
-	fmt.Println(number, name)
+	// update(&number, &name)
+	// fmt.Println(number, name)
 
 	//anonymous function => a function without name is called anonymous function
 
