@@ -10,9 +10,9 @@ func main() {
 
 	http.HandleFunc("/", home)
 	http.HandleFunc("/about", about)
-	http.HandleFunc("/contact", contact)
+	http.HandleFunc("/contact", contact) // creating the route
 
-	http.ListenAndServe(":8888", nil)
+	http.ListenAndServe(":8888", nil) //creating the server
 
 }
 
